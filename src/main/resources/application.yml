@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /tweet-feed-service
+
+
+spring:
+  application:
+    name: tweet-feed-service
+
+com:
+  exp:
+    swagger:
+      paths: com.exp.service.tweet.feed.service.controller
