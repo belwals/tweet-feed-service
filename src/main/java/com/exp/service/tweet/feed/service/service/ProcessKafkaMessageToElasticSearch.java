@@ -16,7 +16,7 @@ import java.io.IOException;
 @RequiredArgsConstructor
 public class ProcessKafkaMessageToElasticSearch {
 
-//    private final RestHighLevelClient elasticClient;
+    private final RestHighLevelClient elasticClient;
 
     @KafkaListener(topics = {"tweet_topic"}, groupId = "KAFKA_PIPELINE_APP")
     public void listenKafkaMessagesAndPublishToElasticSearch(String message) throws IOException {
