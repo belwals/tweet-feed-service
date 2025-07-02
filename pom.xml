@@ -15,7 +15,7 @@
     <name>tweet-feed-service</name>
     <properties>
         <java.version>1.8</java.version>
-        <kafka.client.version>2.6.3</kafka.client.version>
+        <kafka.client.version>3.7.2</kafka.client.version>
         <spring.kafka.version>2.3.2.RELEASE</spring.kafka.version>
         <slf4j.version>1.7.25</slf4j.version>
         <lombok.version>1.18.10</lombok.version>
